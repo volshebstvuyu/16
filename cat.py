@@ -5,6 +5,6 @@ class Cat:
         self.age = age
 
     def __call__(self):
-            return self.name, self.sex, self.age
+        return f'\tname: {self.name}, sex: {self.sex}, age: {self.age}'
 
 
