@@ -1,7 +1,8 @@
-from rectangle import Rectangle
+from rectangle import Rectangle, Square
 
 r1 = Rectangle(10,5)
 r2 = Rectangle(9,9)
+s1 = Square(9)
 
 print("r1.per=", r1())
 print("r1.def=", r1.getSizes())
